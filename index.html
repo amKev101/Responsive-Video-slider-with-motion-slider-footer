@@ -1,0 +1,187 @@
+<!DOCTYPE htML>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Landing Page & Background Video fa-sliders</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    </head>
+    <body>
+       <header>
+        <a href="#" class="brand">Trade</a>
+        <div class="menu-btn"></div>
+
+
+        <div class="navigation">
+        <div class="navigation-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Explore</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+            <a href="#">LogIn</a>
+        </div>
+        </div>
+      </header> 
+
+      <section class="home">
+        <video class="video-slide" src="vidz/gtips.mp4" autoplay muted loop></video>
+        <video class="video-slide active" src="vidz/Be alive.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="vidz/currency.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="vidz/love.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="vidz/optionstrad.mp4" autoplay muted loop></video>
+    <div class="content active">
+        <h1>Wonderful.<br><span>Island</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam veniam, odio vel voluptate impedit cumque mollitia, voluptas natus necessitatibus alias! Necessitatibus quasi impedit in officiis reiciendis sequi possimus quaerat.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div class="content">
+        <h1>Wonderful.<br><span>Island</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam veniam, odio vel voluptate impedit cumque mollitia, voluptas natus necessitatibus alias! Necessitatibus quasi impedit in officiis reiciendis sequi possimus quaerat.</p>
+        <a href="#">Read More</a>
+    </div> 
+    <div class="content">
+        <h1>Camp GGGS.<br><span>Island</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam veniam, odio vel voluptate impedit cumque mollitia, voluptas natus necessitatibus alias! Necessitatibus quasi impedit in officiis reiciendis sequi possimus quaerat.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div class="content">
+        <h1>Enjoy.<br><span>Adventures</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam veniam, odio vel voluptate impedit cumque mollitia, voluptas natus necessitatibus alias! Necessitatibus quasi impedit in officiis reiciendis sequi possimus quaerat.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div class="content">
+        <h1>RoadTrip.<br><span>Expenditions</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam veniam, odio vel voluptate impedit cumque mollitia, voluptas natus necessitatibus alias! Necessitatibus quasi impedit in officiis reiciendis sequi possimus quaerat.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div class="content">
+        <h1>Relax & <br><span>Feel Good</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam veniam, odio vel voluptate impedit cumque mollitia, voluptas natus necessitatibus alias! Necessitatibus quasi impedit in officiis reiciendis sequi possimus quaerat.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div class="media-icons">
+        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#"> <i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+    </div>
+      </section>
+      <!-- TradingView Widget BEGIN -->
+<div class="ticker-tape">
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "US 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      },
+      {
+        "description": "Gold",
+        "proName": "OANDA:XAUUSD"
+      },
+      {
+        "description": "Cable",
+        "proName": "FX:GBPJPY"
+      },
+      {
+        "description": "Dollar",
+        "proName": "TVC:DXY"
+      },
+      {
+        "description": "USD/CAD",
+        "proName": "OANDA:USDCAD"
+      },
+      {
+        "description": "NZD/USD",
+        "proName": "OANDA:NZDUSD"
+      },
+      {
+        "description": "US30",
+        "proName": "CAPITALCOM:US30"
+      },
+      {
+        "description": "VIX500",
+        "proName": "TVC:VIX"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "dark",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+  <div class="signals">
+    <h1>Signal Center</h1>
+  </div>
+
+      <script type="text/javascript">
+        //javascript of responsive navigation menu
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+                navigation.classList.toggle("active");
+        });
+
+         //js for video slider navigation
+         const btns = document.querySelectorAll(".nav-btn");
+         const slides = document.querySelectorAll(".video-slide");
+         const contents = document.querySelectorAll(".content");
+
+
+         var sliderNav = function(manual){
+            btns.forEach((btn) => {
+                btn.classList.remove("active");
+            });
+
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+
+            contents.forEach((content) => {
+                content.classList.remove("active");
+            });
+
+
+            btns[manual].classList.add("active");
+            slides[manual].classList.add("active");
+            contents[manual].classList.add("active");
+         }
+
+         btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                sliderNav(i);
+            });
+         });
+      </script>
+    </body>
+</html>
